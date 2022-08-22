@@ -38,7 +38,7 @@ public class Main {
             MaxAr maxAr = new MaxAr();
             System.out.println("Введите длину массива");
             int lenghtAr = sc.nextInt();
-            System.out.println("Максимальная длина слова в массиве - "+ maxAr.finderMax(lenghtAr));
+            System.out.println("Самое длинное слово в массиве - "+ maxAr.finderMax(lenghtAr));
         }
         else {
             System.out.println("INCORRECT NUMBER OF TASK!!!");
